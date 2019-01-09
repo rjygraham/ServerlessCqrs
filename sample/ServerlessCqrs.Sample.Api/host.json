@@ -1,0 +1,9 @@
+{
+	"version": "2.0",
+	"extensions": {
+		"serverlessCqrs": {
+			"ConnectionMode": "Gateway",
+			"Protocol": "Https"
+		}
+	}
+}
