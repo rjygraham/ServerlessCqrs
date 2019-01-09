@@ -65,7 +65,7 @@ With the prerequisites installed and the Cosmos DB collections created, you can 
 func start --build
 ````
 
-We'll use cURL to exercise the sample app API. I'd encourage you to explorer the Cosmos DB collections using the emulator's Data Explorer as you exeucte each step.
+We'll use cURL to exercise the sample app API. I'd encourage you to explorer the Cosmos DB collections using the emulator's Data Explorer as you execute each step.
 
 *NOTE: I will say this about the extension and sample - CQRS/ES purists may very well hate it. I made a design decision to forego the typical Command Sender/Command Handler part of the pattern/architecture since the Function HttpTrigger is in effect a Command Handler and the calling app the Command Sender. Furthermore, the sample abides by REST which is somewhat unnatural since CQRS aligns more closely with an RPC-style API surface area.*
 
@@ -101,7 +101,7 @@ During the POST above, an Event Handler received the `PersonCreated` event and m
 
 ## Update Person's Name
 
-Now update the person's name from John to Joe by issueing the following PATCH command.
+Now update the person's name from John to Joe by issuing the following PATCH command.
 
 ```bash
 curl -X PATCH -H "Content-Type: application/json" ^
