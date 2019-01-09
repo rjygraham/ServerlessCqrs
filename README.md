@@ -6,7 +6,7 @@ From an ES perspective this extension is very prescriptive in that it requires A
 
 The core `AggregateRoot` and some eventing logic is a derivative of the simple yet awesome CQRS/ES framework CQRSLite found here: [https://github.com/gautema/CQRSlite/](https://github.com/gautema/CQRSlite/). The Apache 2 license has been carried forward for all in scope source.
 
-**NOTE: This extension is strictly experimental at this time. It's an early proof of concept and has not been used in production, does not have any automated testing, and does not implement any kind rety/compensation logic. Use as your peril.**
+**NOTE: This extension is strictly experimental at this time. It's an early proof of concept and has not been used in production, does not have any automated testing, and does not implement any kind rety/compensation logic. Use at your peril.**
 
 # Getting Started
 To get started using ServerlessCqrs, we recommend cloning or downloading the zip of this repo and exploring the sample API application included. Please note, the following prerequisites are required.
